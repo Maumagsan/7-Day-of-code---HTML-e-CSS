@@ -4,6 +4,8 @@
     --title-color:#3A404E;
     --text-color: #667085;
     --main-color: #8E2424;
+
+    font-size: 62.5%; /* 1rem = 10px */
   }
 
 *{
@@ -20,56 +22,57 @@ body{
 }
 
 nav{
-    position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 18px 32px;
+    width: 128rem;
+    height: 4.4rem;
+    margin: 1.8rem 3.2rem;
+    padding-inline: 8rem;
 }
-span{
-    position: absolute;
-    left: 245px;
-    padding-left: 8px;
-    width: 113px;
+a{
+    left: 24.5rem;
+    width: 14.8rem;
+    height: 2.6rem;
+    
+}
+
+div.link a{
+    
+    width: 36.2rem;
+    height: 3.2rem;
+    left: 11.9rem;
+    padding-left: 3.2rem;
     font-weight: 500;
-    font-size: 18px;
-    color: var(--title-color);
-}
-.link a{
-    width: 362px;
-    height: 32px;
-    left: 379px;
-    padding-left: 32px;
-    font-weight: 500, medium;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: var(--text-color);
     
 }
-a:first-child{
+.link a:first-child{
     padding-left: 0;
 }
 
 .entrar{
-    width: 83px;
-    height: 44px;
-    border-radius: 8px;
+    width: 8.3rem;
+    height: 4.4rem;
+    border-radius: .8rem;
     border: none;
-    padding: 10px 18px;
+    padding: 1.0rem 1.8rem;
     background: #fff;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
 }
 #cadastrar{
-    width: 112px;
-    height: 44px;
-    border-radius: 8px;
+    width: 11.2rem;
+    height: 4.4rem;
+    border-radius: .8rem;
     border: none;
-    padding: 10px 18px;
+    padding: 1.0rem 1.8rem;
     background: var(--main-color);
     color: #fff;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
 }
